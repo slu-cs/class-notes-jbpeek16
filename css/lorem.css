@@ -9,7 +9,7 @@ span {
 }
 
 body {
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", sans-serif;
 }
 
 img {
@@ -29,7 +29,7 @@ ul {
 }
 
 h6 {
-  font-size: 40px;
+  font-size: 35px;
   margin: 0px;
   font-style: normal;
 }
