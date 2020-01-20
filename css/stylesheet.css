@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.link {
+  text-align: center;
+  color: red;
+  font-size: 35px;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  background: lightgrey;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  float: left;
+  margin-right: 1em;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  width: 50%;
+  float: left;
+}
