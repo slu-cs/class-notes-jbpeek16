@@ -1,0 +1,13 @@
+
+.bg-danger {
+  background-color: #af1e2d!important;
+}
+
+
+.nav-pills .nav-link.active {
+  background-color: #4b2b23!important;
+}
+
+a {
+  color: #4b2b23;
+}
