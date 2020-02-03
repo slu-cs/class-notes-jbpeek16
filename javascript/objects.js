@@ -33,13 +33,3 @@ languages.push('MongoDB');
 for (const lang of languages) {
   console.log(lang);
 };
-
-const avg = function(a, b) {
-  return (a + b) / 2;
-};
-
-const printAB = function(a, b) {
-  console.log(`a = ${a}, b = ${b}`);
-};
-
-printAB(7, 8);
