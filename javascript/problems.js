@@ -5,15 +5,17 @@ for (let x = 1; x < 11; x++) {
 }
 console.log(sum);
 
+// print first fib number greater than 1000
 let fib = (n) => {
   let i = 0;
-  if (n === 1) {
-    return 1;
-  } else if (n === 2) {
-    return 1;
-  } else {
-    return (fib(n-1) + fib(n-2));
+  let fib_h = (n1, n2) => {
+    while (n2 < 1000) {
+      fib_h(n2, (n1 + n2))
+    }
+    i = n2;
   }
+  fib_h(1, 1);
+  console.log(i);
 }
 
 console.log(fib(100));
