@@ -20,4 +20,13 @@ const rectangle = {
   area: function() { return this.width * this.height }
 };
 
-console.log(rectangle);
+console.log(rectangle.area());
+
+// constructor definition
+const Rectangle = function(width, height) {
+  this.width = width;
+  this.height = height;
+};
+
+const small = new Rectangle(1, 2);
+const large = new Rectangle(10, 20);
