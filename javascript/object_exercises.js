@@ -44,14 +44,14 @@ const harry = new Book('Harry Potter', ['me', 'kira', 'tim']);
 console.log(`Book function true: ${harry.isAuthor('me')}`);
 console.log(`Book function true: ${harry.isAuthor('Jk Rowling')}`);
 
-const range = function(end, start) {
+const range = function(start, end) {
   const output = [];
-  if (start) {
+  if (end) {
     for(let i = start; i < end; i++) {
       output.push(i);
     }
   } else {
-    for(let i = 0; i < end; i++) {
+    for(let i = 0; i < start; i++) {
       output.push(i);
     }
   }
