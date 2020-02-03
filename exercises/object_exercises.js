@@ -50,12 +50,11 @@ const range = function(start, end) {
     for(let i = start; i < end; i++) {
       output.push(i);
     }
-  } else {
+  } else if (start) {
     for(let i = 0; i < start; i++) {
       output.push(i);
     }
   }
-
   return output;
 };
 
