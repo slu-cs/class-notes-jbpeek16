@@ -30,7 +30,7 @@ const Book = function(title, authors) {
   this.title = title;
   this.authors = authors;
 
-  const isAuthor = function(anAuthor) {
+  isAuthor: function(anAuthor) {
     for (const author of authors) {
       if (author === anAuthor){
         return true;
