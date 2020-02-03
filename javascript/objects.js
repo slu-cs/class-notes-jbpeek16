@@ -42,4 +42,4 @@ const printAB = function(a, b) {
   console.log(`a = ${a}, b = ${b}`);
 };
 
-print(7, 8);
+printAB(7, 8);
