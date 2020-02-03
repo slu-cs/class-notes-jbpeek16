@@ -55,6 +55,8 @@ const range = function(end, start) {
       output.push(i);
     }
   }
+
+  return output;
 };
 
 console.log(range(5));
