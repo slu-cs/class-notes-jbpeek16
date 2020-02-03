@@ -13,3 +13,11 @@ printAB(7, 8);
 printAB(10);
 
 printAB();
+
+const rectangle = {
+  width: 10,
+  height: 20,
+  area: function() { return this.width * this.height }
+};
+
+console.log(rectangle);
