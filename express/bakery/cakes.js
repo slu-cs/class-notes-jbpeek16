@@ -16,7 +16,7 @@ router.get('/', function(request, response) {
 router.get('/:id', function(request, response, next) {
   if (request.params.id === 'vanilla') {
     response.send('Vanilla Cakes');
-  } else if (request.params.id === 'chocoalate') {
+  } else if (request.params.id === 'chocolate') {
     response.send('Chocolate Cakes');
   } else {
     next();
