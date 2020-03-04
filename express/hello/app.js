@@ -19,7 +19,7 @@ app.get('/zap/:z', function(request, response) {
 })
 
 app.get('/zap', function(request, response) {
-  response.send(`Hello zap ${request.params.x} and ${request.params.y}`);
+  response.send(`Hello zap ${request.query.x} and ${request.query.y}`);
 })
 
 
