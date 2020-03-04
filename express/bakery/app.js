@@ -17,8 +17,8 @@ app.get('/', function(request, response) {
   response.send(`
     <h1>Bakery</h1>
     <ul>
-      <li><a="/cakes">Cakes</a></li>
-      <li><a="/pies">Pies</a></li>
+      <li><a href="/cakes">Cakes</a></li>
+      <li><a href="/pies">Pies</a></li>
     </ul>
   `);
 })
