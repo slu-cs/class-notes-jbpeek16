@@ -7,8 +7,8 @@ router.get('/', function(request, response) {
   response.send(`
     <h1>Pies</h1>
     <ul>
-      <li><a href="/cakes/vanilla">Vanilla</a></li>
-      <li><a href="/cakes/chocolate">Chocolate</a></li>
+      <li><a href="/pies/vanilla">Vanilla</a></li>
+      <li><a href="/pies/chocolate">Chocolate</a></li>
     </ul>
   `);
 })
